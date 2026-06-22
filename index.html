@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Futebol da Argentina</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-title">Futebol da Argentina</h1>
+      <nav class="main-nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#clubes">Clubes</a>
+        <a href="#seleção">Seleção</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-content">
+        <h2>Paixão, história e glória</h2>
+        <p>Do Boca Juniors ao River Plate, da seleção campeã ao talento dos craques, conheça o futebol argentino.</p>
+        <button id="learnMoreBtn" class="btn">Saiba mais</button>
+      </div>
+
+
+      </section>
+
+<section id="sobre" class="container about">
+<h3>Sobre o futebol argentino</h3>
+<p>O futebol na Argentina é parte central da cultura nacional. Clubes históricos, rivalidades intensas e uma seleção com tradição mundial definem o cenário.</p>
+<div class="cards">
+<article class="card">
+<h4>História</h4>
+<p>Primeiros clubes no século XIX; profissionalização; conquistas internacionais e lendas do esporte.</p>
+</article>
+<article class="card">
+<h4>Rivalidades</h4>
+<p>Clássicos como Boca x River são eventos sociais e esportivos de grande impacto.</p>
+</article>
+<article class="card">
+<h4>Torcida</h4>
+<p>Torcedores apaixonados, cânticos e estádios vibrantes.</p>
+</article>
+</div>
+
+</section>
+
+<section id="clubes" class="container clubs">
+<h3>Principais clubes</h3>
+<ul class="club-list">
+<li><strong>Boca Juniors</strong> — La Bombonera, tradição e títulos.</li>
+<li><strong>River Plate</strong> — Monumental, formação e conquistas.</li>
+<li><strong>Independiente</strong> — Rei de Copas.</li>
+<li><strong>Racing</strong> — História centenária.</li>
+</ul>
+</section>
+
+<section id="seleção" class="container national-team">
+<h3>Seleção Argentina</h3>
+<p>A seleção argentina é reconhecida por sua técnica e por revelar grandes jogadores. Possui títulos continentais e mundiais.</p>
+<div class="stats">
+<div class="stat">
+<strong id="worldCups">2</strong>
+<span>Copas do Mundo</span>
+</div>
+<div class="stat">
+<strong id="copaAmericas">15</strong>
+<span>Copa América</span>
+</div>
+<div class="stat">
+<strong id="fifaRank">Top 10</strong>
+<span>Ranking FIFA (exemplo)</span>
+</div>
+</div>
+</section>
+
+<section id="galeria" class="container gallery">
+<h3>Galeria</h3>
+<div class="gallery-grid" id="galleryGrid">
+<figure class="thumb">
+<img src="images/arg1.jpg" alt="Estádio" />
+<figcaption>Estádio histórico</figcaption>
+</figure>
+<figure class="thumb">
+<img src="images/arg2.jpg" alt="Torcida" />
+<figcaption>Torcida em festa</figcaption>
+</figure>
+<figure class="thumb">
+<img src="images/arg3.jpg" alt="Craque" />
+<figcaption>Craque argentino</figcaption>
+</figure>
+</div>
+
+</section>
+
+<section id="contato" class="container contact">
+<h3>Contato</h3>
+<p>Quer sugerir conteúdo ou enviar fotos? Use o formulário abaixo.</p>
+<form id="contactForm" class="contact-form">
+<label>
+Nome
+<input type="text" name="name" id="name" required />
+</label>
+<label>
+E-mail
+<input type="email" name="email" id="email" required />
+</label>
+<label>
+Mensagem
+<textarea name="message" id="message" rows="4" required></textarea>
+</label>
+<button type="submit" class="btn">Enviar</button>
+</form>
+<div id="formMessage" class="form-message" aria-live="polite"></div>
+</section>
+</main>
+
+<footer class="site-footer">
+<div class="container">
+<p>© <span id="year"></span> Futebol da Argentina — Conteúdo informativo</p>
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
